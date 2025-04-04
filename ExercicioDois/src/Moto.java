@@ -32,13 +32,9 @@ public class Moto extends Veiculo {
     }
 
     public String formatarValorBau() {
-        String ret;
-
-        if (possuiBau) {
-            ret = "A moto possui bau";
-        } else {
-            ret = "A moto não possui bau";
-        }
+        String ret = possuiBau
+                ? "A moto possui bau"
+                : "A moto não possui bau";
 
         return ret;
     }
