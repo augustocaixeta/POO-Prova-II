@@ -1,4 +1,4 @@
-public class Moto {
+public class Moto extends Veiculo {
     private int cilindradas;
     String tipoFreio;
     boolean possuiBau;
